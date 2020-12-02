@@ -15,8 +15,8 @@ function lottoNumbers() {
     });
     
     let span = document.querySelectorAll('span');
-    for(let l = 0; l < nums.length; l++) {
-        span[l].append(nums[l]);
+    for(let j = 0; j < nums.length; j++) {
+        span[j].append(nums[j]);
     }
 }
 
